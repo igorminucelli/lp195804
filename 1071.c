@@ -20,7 +20,7 @@ int main()
         if( i % 2 != 0){
             Soma = Soma+i;
         }
-        }
+    }
     printf("%d\n",Soma);
     return 0;
 }
