@@ -5,7 +5,7 @@ Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1080
 Data        : 19/04/2026
 Objetivo    : Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
-Aprendizado : <<<Aprendemos o uso do módulo >>>
+Aprendizado : <<<Aprendemos o uso do vetor >>>
 -------------------------------------------------------------------------- */
 #include <stdio.h>
 
