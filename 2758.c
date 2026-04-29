@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Igor Aparecido Minucelli Pinto>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2758
+Data        : 13/04/2026
+Objetivo    : Entrada e saida de números reais 
+Aprendizado : <<< Uso de de float, double, decimais e espaços >>>
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 
 int main(){
