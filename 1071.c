@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Igor Aparecido Minucelli Pinto>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1071
+Data        : 21/04/2026
+Objetivo    : Soma de impares consecutivos
+Aprendizado : <<< Uso do For >>>
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 
 int main()
