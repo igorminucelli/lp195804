@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Igor Aparecido Minucelli Pinto>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/2757
+Data        : 21/04/2026
+Objetivo    : Entrada e saida de números inteiros
+Aprendizado : <<< Uso de decimais e espaços >>>
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 
 int main()
