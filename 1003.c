@@ -1,3 +1,12 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Nome        : <<<Igor Aparecido Minucelli Pinto>>>
+Linguagem   : C
+Problema    : https://judge.beecrowd.com/pt/problems/view/1003
+Data        : 09/04/2026
+Objetivo    : Fazer somas simples
+Aprendizado : <<< Fazer Somas em C >>>
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <stdlib.h>
 
