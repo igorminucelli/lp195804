@@ -4,7 +4,7 @@ Nome        : <<<Igor Aparecido Minucelli Pinto>>>
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1241
 Data        : 07/05/2026
-Objetivo    : Entrada e saida de números reais 
+Objetivo    : Encaixa ou não
 Aprendizado : <<< Uso de string com números >>>
 -------------------------------------------------------------------------- */
 #include<stdio.h>
