@@ -13,21 +13,15 @@ int calcularMdc(int F1,int F2){
     if(F2==0){
         return F1;
     }
-    calcularMdc(F2, F1%F2);
+    return calcularMdc(F2, F1%F2);
 }
 int main(){
     int N, F1, F2, i, pilha;
     scanf("%d",&N);
-    if(N<1 || N>3000){
-        return 0;
-    }
     for(i=0;i<N;i++){
       scanf("%d %d", &F1, &F2);
-      if(F1<1 || F1>1000 || F2<1 || F2>1000){
-          return 0;
-      }
       pilha=calcularMdc(F1, F2);
-      printf("%d",pilha);
+      printf("%d\n",pilha);
     }
     return 0;
 }
