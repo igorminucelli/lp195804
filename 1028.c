@@ -4,8 +4,8 @@ Nome        : <<<Igor Aparecido Minucelli Pinto>>>
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1028
 Data        : 26/05/2026
-Objetivo    : Ler dois valores inteiros e mostrar a soma.
-Aprendizado : <<<Determinar figurinhas que podem ser trocados>>>
+Objetivo    : Determinar figurinhas que podem ser trocados.
+Aprendizado : <<<Uso de funções recursivas >>>
 Pergunta de segunda ordem: <<<Fazer a pergunta>>>
 -------------------------------------------------------------------------- */
 #include<stdio.h>
