@@ -3,7 +3,7 @@ Disciplina  : Lógica de Programação, turma IB, 2026S1
 Nome        : <<<Igor Aparecido Minucelli Pinto>>>
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1435
-Data        : 16/06/2026
+Data        : 17/06/2026
 Objetivo    : Imprimir uma matriz quadrada de um número inteiro.
 Aprendizado : <<<Exerciatr matrizes>>>
 Pergunta de segunda ordem: <<<Fazer a pergunta>>>
