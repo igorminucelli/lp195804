@@ -7,44 +7,38 @@ Data        : 07/05/2026
 Objetivo    : Encaixa ou não
 Aprendizado : <<< Uso de string com números >>>
 -------------------------------------------------------------------------- */
-#include<stdio.h>
-#include<string.h>
-int main(){
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int N, i, j, tamanhoA, tamanhoB, pulo, encaixa;
+    char A[1001], B[1001];
     
-    int N,i,j,tamanhoA,tamanhoB,pulo, encaixa;
-    char A[1001],B[1001];
+    if (scanf("%d", &N) != 1) return 0;
     
-    scanf("%d",&N);
-    
-    for(i=0;i<N;i++){
-        scanf("%s %s",A,B);
-        strlen(A);
-        strlen(B);
-        tamanhoA=strlen(A)-1;
-        tamanhoB=strlen(B)-1;
+    for (i = 0; i < N; i++) {
+        scanf("%s %s", A, B);
+        
+        tamanhoA = strlen(A);
+        tamanhoB = strlen(B); 
         encaixa = 1;
         
-        if(tamanhoB>tamanhoA){
+        if (tamanhoB > tamanhoA) {
             encaixa = 0;
-        }
-        
-        if(tamanhoA > tamanhoB){
+        } else {
             pulo = tamanhoA - tamanhoB;
-            for(j=0;j<tamanhoB;j++){
-               
-                if(A[pulo+j]!=B[j]){
+            for (j = 0; j < tamanhoB; j++) {
+                if (A[pulo + j] != B[j]) {
                     encaixa = 0;
                     break;
                 }
             }
-            if (encaixa == 1) {
-                printf("encaixa\n");
-            }
-            else {
-                printf("nao encaixa\n");
-            }
         }
-        
+        if (encaixa == 1) {
+            printf("encaixa\n");
+        } else {
+            printf("nao encaixa\n");
+        }
     }
     return 0;
 }
